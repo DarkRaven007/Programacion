@@ -5,6 +5,14 @@ git branch -M main
 
 git push -u origin main
 
+git branch -m main 007
+
+git fetch origin
+
+git branch -u origin/007 007
+
+git remote set-head origin -a
+
 Configurar Nombre que salen en los commits
 
 	git config --global user.name "dasdo"
